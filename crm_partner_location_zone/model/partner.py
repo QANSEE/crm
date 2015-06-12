@@ -23,4 +23,4 @@ from openerp import models, fields, api
 class ResPartner(models.Model):
     _inherit = 'res.partner'
 
-    zip_zone_id = fields.Many2one(related='zip_id.zone_id')
+    zip_zone_id = fields.Many2one(related='zip_id.zone_id', readonly=True)
