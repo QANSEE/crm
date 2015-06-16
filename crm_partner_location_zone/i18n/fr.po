@@ -1,0 +1,41 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#   * crm_partner_location_zone
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-16 08:58+0000\n"
+"PO-Revision-Date: 2015-06-16 08:58+0000\n"
+"Last-Translator: Jacques-Etienne Baudoux <je@bcim.be>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: crm_partner_location_zone
+#: field:res.country.zone,zip_ids:0
+msgid "Cities"
+msgstr "Villes"
+
+#. module: crm_partner_location_zone
+#: view:res.better.zip:crm_partner_location_zone.view_better_zip_filter
+#: field:res.better.zip,zone_id:0
+#: view:res.country.zone:crm_partner_location_zone.res_country_zone_form
+#: field:res.country.zone,name:0
+msgid "Commercial Zone"
+msgstr "Zone commerciale"
+
+#. module: crm_partner_location_zone
+#: model:ir.model,name:crm_partner_location_zone.model_res_country_zone
+msgid "Commercial Zone to group cities/zip for segmentation"
+msgstr "Zone commerciale pour segmenter les villes/code postaux"
+
+#. module: crm_partner_location_zone
+#: model:ir.actions.act_window,name:crm_partner_location_zone.action_res_country_zone
+#: model:ir.ui.menu,name:crm_partner_location_zone.menu_res_country_zone
+#: view:res.country.zone:crm_partner_location_zone.res_country_zone_tree
+msgid "Commercial Zones"
+msgstr "Zones commerciales"
