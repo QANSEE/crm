@@ -32,6 +32,7 @@
         'view/lead_view.xml',
         'view/partner_view.xml',
         'view/zone_view.xml',
+        'security/ir.model.access.csv',
     ],
     'demo': [],
 #    'test': ['test/test_street3.yml'],
