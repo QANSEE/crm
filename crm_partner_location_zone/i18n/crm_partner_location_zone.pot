@@ -25,6 +25,8 @@ msgstr ""
 #: field:res.better.zip,zone_id:0
 #: view:res.country.zone:crm_partner_location_zone.res_country_zone_form
 #: field:res.country.zone,name:0
+#: field:res.partner,zip_zone_id:0
+#: field:crm.lead,zip_zone_id:0
 msgid "Commercial Zone"
 msgstr ""
 
