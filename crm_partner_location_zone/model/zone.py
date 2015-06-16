@@ -26,5 +26,5 @@ class ResCountryZone(models.Model):
     _name = 'res.country.zone'
     _description = __doc__
 
-    name = fields.Char('Commercial Zone')
+    name = fields.Char('Commercial Zone', requried=True)
     zip_ids = fields.One2many('res.better.zip', 'state_id', 'Cities')
