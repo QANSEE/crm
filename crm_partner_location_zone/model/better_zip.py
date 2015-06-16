@@ -23,4 +23,4 @@ from openerp import models, fields, api
 class BetterZip(models.Model):
     _inherit = "res.better.zip"
 
-    zone_id = fields.Many2one('res.country.zone', 'Commercial Zone')
+    zone_id = fields.Many2one('res.country.zone', 'Commercial Zone', ondelete='restrict')
