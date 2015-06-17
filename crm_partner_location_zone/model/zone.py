@@ -27,7 +27,7 @@ class ResCountryZone(models.Model):
     _description = __doc__
 
     name = fields.Char('Commercial Zone', required=True)
-    zip_ids = fields.One2many('res.better.zip', 'state_id', 'Cities')
+    zip_ids = fields.One2many('res.better.zip', 'zone_id', 'Cities')
 
     _sql_constraints = [
         ('name_uniq', 'unique(name)', 'Commercial Zone must be unique!'),
