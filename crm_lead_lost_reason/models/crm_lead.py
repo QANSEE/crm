@@ -19,7 +19,7 @@
 #
 #
 
-from openerp import models, fields, api, exceptions
+from openerp import models, fields, api, exceptions, _
 
 
 class CrmLead(models.Model):
@@ -46,9 +46,9 @@ class CrmLead(models.Model):
             lost_stage = self.env.ref('crm.stage_lead7')
             for lead in self:
                 if new_stage == lost_stage and not lead.lost_reason_id:
-                    raise exceptions.Warning('Please pass by the red button '
-                                             '"Mark Lost" on the form '
-                                             'to provide a lost reason.')
+                    raise exceptions.Warning(_(
+                        'Please use the red button "Mark Lost" on the form to '
+                        'provide a lost reason.'))
                 if lead.stage_id == lost_stage and new_stage != lost_stage:
                     lead.lost_reason_id = False
         result = super(CrmLead, self).write(vals)

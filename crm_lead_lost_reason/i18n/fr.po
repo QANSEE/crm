@@ -163,3 +163,9 @@ msgstr "Vrai"
 #: view:crm.lead.lost:crm_lead_lost_reason.view_crm_lead_lost
 msgid "or"
 msgstr "ou"
+
+#. module: crm_lead_lost_reason
+#: code:addons/crm_lead_lost_reason/models/crm_lead.py:49
+#, python-format
+msgid "Please use the red button \"Mark Lost\" on the form to provide a lost reason."
+msgstr "Veuillez utiliser le bouton rouge \"Marquer comme perdu\" pour fournir une raison."
